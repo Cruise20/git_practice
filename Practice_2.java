@@ -7,3 +7,6 @@
   *1.看远程仓的master分支下有没有对应的commit信息(commit信息为"clean")。
   *
   */
+
+It's clean!
+
