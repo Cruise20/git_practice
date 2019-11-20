@@ -8,3 +8,18 @@
   *1.看远程仓的master分支下有没有对应的commit信息。
   *
   */
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner=new Scanner(System.in);
+        int k=Integer.parseInt(scanner.nextLine());
+        System.out.println(cal(k));
+        
+    }
+    public static int cal(int k){
+        if(k==1) return 1;
+        else if(k==2) return 1;
+        else
+            return cal(k-1)+cal(k-2);
+    }
+}
